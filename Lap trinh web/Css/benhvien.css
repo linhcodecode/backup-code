@@ -1,0 +1,200 @@
+*{
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+}
+header{
+	background: url(../img-benhvien/img-head.jpg) top center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: left;    
+    padding: 0;
+    width: 100%;
+    float:left; 
+    color:white;
+}
+.header1{
+	width: 85%;
+    margin: auto;
+    
+}
+.header-left{
+	float: left;
+}
+.uppercase{
+	text-transform:uppercase;
+}
+.flex{
+	display: flex;
+	
+}
+h1.h1-1{
+	font-size: 25px;
+	padding-top: 20px;
+
+}
+h2.h2-2{
+	font-size: 35px;
+    padding-top: 12px;
+}
+.content2{
+	width:350px;
+	padding-top: 10px;	
+}
+.h1-1,.h2-2,.content2{
+	line-height: 30px;
+	margin: 0px auto;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.logo1{
+	padding-right: 10px;
+    padding-top: 30px;
+}
+.logo2{
+	float: right;
+    width: 140%;
+}
+.header-right{
+	float: right;
+}
+a.chamxanh{
+	background: url(../img-benhvien/img-chamxanh.png) center left;
+    background-repeat: no-repeat;
+}
+.menu1 ul{
+	float: right;
+	padding-left: 0px;
+    border-bottom: 1px solid firebrick;
+    padding-bottom: 10px;
+}
+.menu1 ul li{
+	float: left;
+}
+.menu1 ul li a{
+	text-align: center;
+}
+a.padding-right{
+	padding: 0px 8px 0px 0px;
+}
+a.padding-left{
+	padding: 0px 8px 0px 12px;
+}
+a.content3{
+	color: red;
+    line-height: 33px;
+    font-size: 20px;
+    float: right;
+    font-family: 'Open Sans Condensed', sans-serif;
+    height: 30px;
+    margin: auto;
+}
+.oto{
+	float: left;
+	width: 34%;
+}
+img.oto1{
+	float: right;
+}
+.khung1{
+	float: right;
+    background: white;
+    border-radius: 5px;
+    width: 64%;
+    height: 37px;
+    margin-top: 5.5px;
+    display: flex;
+    justify-content: center;
+    
+}
+nav{
+	clear: both;
+    position: relative;
+    background-color: #009ee3;
+    margin-top: 0px;
+    border-top: 1px solid #2fbffe;
+    width: 100%;
+    float: left;
+}
+a.icon-home{
+	background: url(../img-benhvien/icon-home.png) center left;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+.menu2 ul{
+	width: 88%;
+    float: left;
+    margin: auto;
+    padding: 0px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.menu2 ul li{
+	float: left;
+	padding: 0px 18px 0px 18px;
+	border-right: 1px solid #cccccc;
+}
+.menu2 ul li a{
+	font-size: 16px;
+	color: white;
+}
+.menu2 ul li a:hover{
+	color: #B9DD0F;
+}
+.phan3{
+	position: relative;
+	width: 100%;
+    float: left;
+    background-color: #cff1ff;
+    height: 36px;
+    font-size: 15px;
+    color: black;
+
+    
+}
+#phan3-1{
+    float: left;
+    margin-left: 109px;
+    line-height: 33px;
+    color: #179CE8;
+}
+.phan3-2{
+	float: left;
+	position: absolute;
+	left: 287px;
+	top: 8px;
+	
+}
+.phan3-2 p{
+	padding: 0px;
+    margin: auto;
+    border-left:  1px solid green;
+    font-weight: 100;
+    opacity: 0.65;
+    padding-left: 10px;
+    margin-left: 14px;
+}
+.phan3-3{
+	float: right;
+    position: absolute;
+    right: 100px;
+    display: flex;
+    margin-top: 6px;
+}
+
+.input_1{
+	margin-right: 5px;
+    outline: none;
+    padding: 5px;
+    font-size: 11px;
+    margin: auto;
+    border: 1px solid deepskyblue;
+}
+.img-timkiem{
+    width: 100%;
+    outline: none;
+    border: 1px solid deepskyblue;
+}

@@ -1,0 +1,154 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+header{
+	
+	background-image: url('../img1/img1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin:0;
+	padding: 0;
+}
+body{
+	position: relative;
+}
+
+	
+.dong1{
+	display: flex;
+	justify-content: center;
+}
+.viethoa{
+	text-transform: uppercase;
+}
+
+.hienthi{
+	
+	display: flex;
+	justify-content:center;
+}
+.hienthi-0{
+	margin-bottom: 1rem;
+}
+.hienthi1{
+	display: block;
+
+	}
+.hienthi2{
+		margin-right: 8px;
+		margin-left: 26px;
+	}
+.hienthi1-1{
+	width: 475px;
+	height: 46px;
+	margin:0 auto;
+	margin-bottom: 1rem;
+}
+	
+.dki1{
+	border:none;
+	font-size: 22px;
+	padding: 10px 108px 10px 108px;
+	border-radius: 5px ;
+	margin-right: 5px;
+	background-image: linear-gradient(to right, #fb7a0d, #fed64c);
+	color: #000;
+	font-family: Montserrat-Bold;
+
+}
+.dnhap1{
+	border:none;
+	font-size: 21px;
+	padding: 8.5px 4px 8.5px 4px;
+    border-radius: 5px;
+    color: #f7dca9;
+    background-image: linear-gradient(to right, #1f1f20, #474849);
+}
+.dnhap2{
+	width: 530px;
+	position: relative;
+	margin:0 auto; 
+}
+
+
+.boc1{
+	max-width: 640px;
+	margin: 0 auto;
+}
+.form1{
+	padding: 6px 45px 6px 12px;
+	height: 46px;
+    background-color: transparent!important;
+    border: 1px solid #d59e6b!important;
+    outline: none!important;
+    margin: 0 auto;
+    padding-right: 45px;
+    font-size: 14px;
+    color: #ffcc7e!important;
+    border-radius: .3rem;
+    width: 474px;
+
+}
+.img23{
+	position: absolute;
+	left: 264px;
+
+}
+.img15-12{
+	width:250px;
+	margin: 0 auto;
+}
+
+.anh1-4{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 28px;
+}
+
+.dong4{
+	position: absolute;
+	right: -17.5px;
+	top:126px;
+	position: fixed;
+}
+.dong5{
+	position: absolute;
+	right: -17.5px;
+	top:75px;
+	position: fixed;
+}
+.dong6{
+	position: absolute;
+	right: 0px;
+	top:200px;
+	position: fixed;
+}
+.img6{
+	
+	position: absolute;
+	top:20px;
+	left:6px;
+	width: 50px;
+	height: 50px;
+	display: none;
+	position: fixed;
+}
+@media screen and (max-width: 1024px){
+	.dong7{
+		display: none;
+	}
+	.img6{
+		display: block;
+	}
+	.anh1-4{
+		max-width: 747px
+	}
+}
+
+
+

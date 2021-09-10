@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport'content= 'width=device-width,initial-scale=1'>
+	<link rel="stylesheet" type="text/css" href="./css/benhvien.css">
+	<link href="./fontawesome/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&display=swap" rel="stylesheet">
+	<title>Bệnh viện đa khoa khu vực bình thuận</title>
+</head>
+<body onload="startTime()">
+<header>
+	<div class="header1">
+		<div class="header-left flex">
+			<div class="logo1">
+				<img src="./img-benhvien/logo.png" >
+			</div>
+			<div class="content1 uppercase">
+				<h1 class="h1-1">bệnh viện đa khoa khu vực</h1>
+				<h2 class="h2-2">bắc bình thuận</h2>
+				<div class="content2">
+					<marquee direction="left"style= 'padding-bottom: 5px;'>Y Đức - Đoàn Kết - Thân Thiện - Công Bằng</marquee>
+				</div>
+			</div>
+		</div>
+		<div class="header-right">
+			<div class="menu1">
+				<ul>
+					<li><a href="" class="padding-right">Hình ảnh</a></li>
+					<li><a href=""class="chamxanh padding-right padding-left">Tuyển dụng</a></li>
+					<li><a href=""class="chamxanh padding-right padding-left">Hỏi - đáp</a></li>
+					<li><a href=""class="chamxanh padding-left">Video - clip</a></li>
+				</ul>
+			</div>
+			<div class="logo2">
+				<div class="oto">
+				    <img src="./img-benhvien/img-oto.png" class="oto1">
+				</div>
+				<div class="khung1">
+					<a href="" class="content3">GỌI CẤP CỨU:(0252) 3 860 015</a>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+</header>
+<nav>
+	<div class="menu2 flex">
+		<ul>
+			<li><a href=""class="icon-home uppercase"></a></li>
+			<li><a href=""class="uppercase">giới thiệu</a></li>
+			<li><a href=""class="uppercase">dịch vụ</a></li>
+			<li><a href=""class="uppercase">chuyên khoa</a></li>
+			<li><a href=""class="uppercase">tin hoạt động</a></li>
+			<li><a href=""class="uppercase">tin tức</a></li>
+			<li><a href=""class="uppercase">dành cho người bệnh</a></li>
+			<li><a href=""class="uppercase">văn bản</a></li>
+			<li><a href=""class="uppercase">thông tin</a></li>
+			<li><a href=""class="uppercase">liên hệ</a></li>
+
+		</ul>
+	</div>
+	<div class="phan3">
+	    <div id="phan3-1"></div>
+	    <div class="phan3-2">
+	    	<p>Chúng tôi luôn thấu hiểu bệnh nhân và luôn cố gắng đáp ứng yêu cầu của bệnh nhân.</p>
+	    </div>
+	    <div class="phan3-3">
+	    	<input type="text" placeholder="Bạn cần tìm gì?" class="input-1 input_1">
+	    	<input type="submit"value = "Tìm kiếm" class="input-2 img-timkiem">
+	    </div>
+    </div>
+</nav>
+<script>
+  function startTime() {
+  var h0 = ["Thứ hai","Thứ ba","Thứ tư","Thứ năm","Thứ sáu","Thứ bảy","Chủ Nhật"];
+  var today = new Date();
+  var number = 6;
+  var h1 = today.getDate();
+  var h2 = today.getMonth()+1;
+  var h3 = today.getFullYear();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s =  today.getSeconds();
+  m = checkTime(m);
+  s= checkTime(s);
+  document.getElementById('phan3-1').innerHTML =
+  h0[number] +","+h1 +"-"+h2+"-"+h3+ "|" + h + ":" + m + ":" + s;
+
+  if(h == 00 && number < h0.length ){
+  	number++;
+  }else{
+  	number = 0;
+  }
+  var t = setTimeout(startTime, 500);
+
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};
+  return i;
+}
+</script>
+</body>
+</html>

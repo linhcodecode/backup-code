@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: non
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: red;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+</head>
+<body>
+
+<h2>Tabs</h2>
+<p>Click on the buttons inside the tabbed menu: </p>
+
+<div class="tab">
+  <button class="tablinks "id = 'ac' onclick="openCity(event, 'London','ac')">London</button> <!-- /london = ten id -->
+  <button class="tablinks" id = 'ad' onclick="openCity(event, 'Paris','ad')">Paris</button> <!-- ad = ten id -->
+  <button class="tablinks" id = 'ae' onclick="openCity(event, 'Tokyo','ae')">Tokyo</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+function openCity(event, city,ac) {
+  var i, tabcontent, tablinks;
+  tablinks = document.getElementsByClassName("tablinks");
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < 3; i++) {
+    tabcontent[i].style.display = "none";//3 thằng có class 'tabcontent' sẽ ẩn...
+  }
+  // .............................................
+
+ document.getElementById(city).style.display = "block";
+  //hiển thị nội dung của button..
+  //tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < 3; i++) {
+    tablinks[i].classList.remove('active');
+     // tablinks[i].className = tablinks[i].className.replace(" active", ""); //thay active bằng ' '....thêm class vào thẻ button và tên class = tablinks[i].className.replace(" active", "")
+  }
+  // document.getElementById(ac).classList.add('active');
+   event.currentTarget.className += " active";//kiểm soát màu nền button...trả về html dom kick hoạt sự kiện..
+ // vẫn k hiểu dòng này
+  
+}
+
+</script>
+   
+</body>
+</html>

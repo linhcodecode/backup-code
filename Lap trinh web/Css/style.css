@@ -1,0 +1,185 @@
+#phan1{
+background: #f2f2f2;
+height:2200px;
+width: auto;
+position: relative;
+
+}
+@media screen and (max-width: 1000px){
+	#phan1{
+		background: white;
+	    
+	}
+
+}
+.phan1-1{
+	
+	height: 216px;
+}
+.icon1{
+	position: absolute;
+top:81px;
+right:329px;
+	
+}
+.icon2{
+	position: absolute;
+	top:85px;
+	right:333px;
+	opacity: 0.3;
+	
+}
+.icon3{
+	position: absolute;
+	top:46px;
+	right: 337px;
+}
+.icon4{
+	position: absolute;
+	top:81px;
+	left:320px; }
+
+.icon5{
+	position: absolute;
+	top:96px;
+	right:611px; }
+.a1{
+	text-decoration: none;
+	position: absolute;
+	top:97px;
+	right: 507px;
+}
+.icon8{
+	position: absolute;
+	top: 725px;
+	left: 317px;
+
+}
+.menu1{
+	background: #fdfdfd;
+	width: 962px;
+	height: 71px;
+	position: absolute;
+	top: 189px;
+	left: 320px;
+
+}
+.menu1 ul li{
+	list-style: none;
+	float: left;
+	font-size: 31px;
+
+}
+.abc1{
+	padding: 0px 20px 0px 20px;
+	font-family: 'Open Sans Condensed' ;
+	font-weight: bold;
+}
+.menu1 ul li a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 31px;
+	padding: 0px 20px 0px 20px;
+	color: #444444;
+	font-family: 'Open Sans Condensed' ;
+	border-right: 2px solid #ccc;
+	font-weight: bold;
+}
+.icon9{
+	position: absolute;
+	top: 495px;
+	left: 64px;
+}
+.icon10{
+	position: absolute;
+	top: 495px;
+	right: 64px;
+}
+.phan1-2{
+	width: 323px;
+	height: 346px;
+	background: #ffffff;
+	position: absolute;
+	top: 830px;
+	left: 320px;
+}
+
+.phan1-3{
+	width: 323px;
+	height: 346px;
+	background: #ffffff;
+	position: absolute;
+	top: 830px;
+	left: 656px;
+	
+}
+
+.phan1-4{
+	width: 323px;
+	height: 346px;
+	background: #ffffff;
+	position: absolute;
+	top: 830px;
+	left: 991px;
+}
+.n1{
+	font-size: 37px;
+	font-family:'Roboto' ;
+	text-align: center;
+	margin-bottom: 40px;
+	opacity: 0.85}
+
+.n2 {
+	font-size: 37px;
+	font-family:'Roboto' ;
+	text-align: center;
+	opacity: 0.85
+}
+.n3{
+	font-size: 37px;
+	font-family:'Roboto' ;
+	text-align: center;
+	opacity: 0.85
+}
+.ic16{
+position: absolute;
+top:88px;
+right: 75px;
+}
+ 
+
+.ic13{
+position: absolute;
+top:88px;
+right: 75px;
+
+ 
+}
+.ic15{
+position: absolute;
+top:88px;
+right: 75px;
+}
+.ic17{
+position: absolute;
+bottom:25px;
+right: 98px;	
+}
+.ic11{
+position: absolute;
+bottom:8px;
+right: 151px;
+}
+.ic12{
+position: absolute;
+bottom:25px;
+right: 98px;
+}
+.ic14{
+position: absolute;
+bottom:25px;
+right: 98px;
+}
+
+
+
